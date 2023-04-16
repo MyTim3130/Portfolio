@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portfolio</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+     <div id="smooth-wrapper">
+          <div id="smooth-content">
+               <h1>SCROLL</h1>
+
+               <section id="main">
+                    <div class="scroll-downs">
+                         <div class="mousey">
+                              <div class="scroller"></div>
+                         </div>
+                    </div>
+               </section>
+               <div class="test"></div>
+               
+               <section id="section2" class="allSections">
+
+                    <div class="truckDiv">
+                         <lottie-player class="truck" src="graphics/truck.json" background="transparent" speed="1"
+                              style="width: 42vh; height: 42vh;" loop autoplay>
+                         </lottie-player>
+                    </div>
+                    <h2 class="section2Text">About</h2>
+                    <span class="section2TextAboutContainer">
+                         <img src="img/me.jpg" class="meImg">
+                         <p class="section2TextAbout">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+                              minima tempore nihil tenetur
+                              non obcaecati doloribus natus! Molestias tenetur in, repellat, esse, corporis ad
+                              reprehenderit dolorem aliquam architecto veniam eos.</p>
+                    </span>
+               </section>
+
+               <div class="test"></div>
+               <div class="test"></div>
+               <section id="section3" class="allSections">
+                    <span class="skillsContainer">
+                         <h2>Skills</h2>
+                         <img src="img/skills.png" class="skillsImg">
+                    </span>
+               </section>
+               <div class="test"></div>
+
+
+               <section id="section4" class="allSections">
+                    <lottie-player class="projects" src="graphics/project-management.json" background="transparent"
+                         speed="1" style="width: 400px; height: 400px;" loop autoplay>
+
+                    </lottie-player>
+
+                    <div class="projectList">
+                         <div class="project">
+                              <img src="img/placeholder.jpg" class="projectImg">
+                              <span>
+                                   <p class="projectText">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                                        aliquid. Quo non possimus magnam nostrum eaque earum eveniet est debitis,
+                                        voluptates perferendis cupiditate nemo officia molestiae perspiciatis adipisci
+                                        repellendus. Beatae.
+                                        Minus repudiandae officia sequi. Odio culpa provident illo hic quisquam quod rem
+                                        tenetur illum dicta sunt necessitatibus temporibus, debitis dolor voluptatem
+                                        quibusdam! At, rem. Laboriosam dolorem ad quam ut aut?
+                                   </p>
+                              </span>
+                         </div>
+                         <div class="project">
+                              <img src="img/placeholder.jpg" class="projectImg">
+                              <span>
+                                   <p class="projectText">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                                        aliquid. Quo non possimus magnam nostrum eaque earum eveniet est debitis,
+                                        voluptates perferendis cupiditate nemo officia molestiae perspiciatis adipisci
+                                        repellendus. Beatae.
+                                        Minus repudiandae officia sequi. Odio culpa provident illo hic quisquam quod rem
+                                        tenetur illum dicta sunt necessitatibus temporibus, debitis dolor voluptatem
+                                        quibusdam! At, rem. Laboriosam dolorem ad quam ut aut?
+                                   </p>
+                              </span>
+                         </div>
+                         <div class="project">
+                              <img src="img/placeholder.jpg" class="projectImg">
+                              <span>
+                                   <p class="projectText">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                                        aliquid. Quo non possimus magnam nostrum eaque earum eveniet est debitis,
+                                        voluptates perferendis cupiditate nemo officia molestiae perspiciatis adipisci
+                                        repellendus. Beatae.
+                                        Minus repudiandae officia sequi. Odio culpa provident illo hic quisquam quod rem
+                                        tenetur illum dicta sunt necessitatibus temporibus, debitis dolor voluptatem
+                                        quibusdam! At, rem. Laboriosam dolorem ad quam ut aut?
+                                   </p>
+                              </span>
+                         </div>
+                    </div>
+               </section>
+
+               
+               <div class="test"></div>
+               <div class="test"></div>
+
+               <section id="section5" class="allSections">
+                    <div class="wrapper">
+                         <form class="form">
+                           <div class="pageTitle title">Contact Me </div>
+                           <div class="secondaryTitle title">INFO: Not working yet</div>
+                           <input type="text" class="name formEntry" placeholder="Name" />
+                           <input type="text" class="email formEntry" placeholder="Email"/>
+                           <textarea class="message formEntry" placeholder="Message"></textarea>
+                           <button class="submit formEntry" onclick="thanks()">Submit</button>
+                         </form>
+                       </div>
+               </section>
+          </div>
+     </div>
+
+
+
+     <section id="section1" class="allSections">
+          <div class="center">
+               <div class = "cloud" id="cloud1"></div>
+               <div class = "cloud" id="cloud2"></div>
+               <div class = "cloud" id="cloud3"></div>
+               <div class = "cloud" id="cloud4"></div>
+             </div>
+
+          <div class="driverDiv">
+               <lottie-player class="driver" src="graphics/man-driving-car.json" background="transparent" speed="1"
+                    style="width: 40vh; height: 40vh;" loop autoplay>
+               </lottie-player>
+          </div>
+          <div class="roadPosition">
+               <section class="road"></section>
+          </div>
+     </section>
+
+
+
+     <script src="gsap-shockingly-green/minified/ScrollSmoother.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+
+     <script src="app.js"></script>
+</body>
+
+</html>
